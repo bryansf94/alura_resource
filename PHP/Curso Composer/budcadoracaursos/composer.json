@@ -1,0 +1,19 @@
+{
+    "name": "bryansf94/buscar-curso",
+    "description": "Projeto que bisca curso",
+    "type": "libary",
+    "autoload": {
+        "psr-4": {
+            "Bryansf94\\BuscarCurso\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Brayan Henrique",
+            "email": "90359278+bryansf94@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
