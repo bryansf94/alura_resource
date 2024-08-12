@@ -1,20 +1,21 @@
 {
-    "name": "bryansf94/buscar-curso",
-    "description": "Projeto que bisca curso",
-    "type": "libary",
-    "autoload": {
-        "psr-4": {
-            "Bryansf94\\BuscarCurso\\": "src/"
-        }
-    },
+    "name": "cviniciussdias/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
     "authors": [
         {
-            "name": "Brayan Henrique",
-            "email": "90359278+bryansf94@users.noreply.github.com"
+            "name": "Vinicius Dias",
+            "email": "carlosv775@gmail.com"
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^7.9",
-        "symfony/dom-crawler": "^4.2"
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "^4.2",
+        "symfony/css-selector": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
     }
 }
